@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care Login</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-container doctor-login">
+            <h2>For Doctors</h2>
+            <form action="doctor_dashboard.html" method="post">
+                <label for="doctor-username">Username</label>
+                <input type="text" id="doctor-username" name="username" required>
+                <label for="doctor-password">Password</label>
+                <input type="password" id="doctor-password" name="password" required>
+                <button type="submit">Login</button>
+                <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+        <div class="login-container patient-login">
+            <h2>For Patients</h2>
+            <form action="patient_dashboard.html" method="post">
+                <label for="patient-username">Username</label>
+                <input type="text" id="patient-username" name="username" required>
+                <label for="patient-password">Password</label>
+                <input type="password" id="patient-password" name="password" required>
+                <button type="submit">Login</button>
+                <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

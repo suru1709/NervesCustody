@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NervesCustody</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo-title">
+                <img src="logo.png" alt="Health Care Logo" class="logo">
+            <h1>NervesCustody</h1>
+            </div>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="#home" class="nav-Link"><active>Home</active></a></li>
+                    <li><a href="#aboutus" class="nav-Link">About Us</a></li>
+                    <li><a href="#services" class="nav-Link">Services</a></li>
+                    <li><a href="#contact" class="nav-Link">Contact Us</a></li>
+                    <li><a href="login1.html" class="login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Our Mental Health Care Center</h2>
+            <p>Your health is our priority. We offer comprehensive medical services for your well-being.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="img1.jpg" alt="Image 1" class="slide-image">
+                <div class="slide-text">Welcome to Health Care</div>
+            </div>
+            <div class="slide fade">
+                <img src="img2.jpg" alt="Image 2" class="slide-image">
+                <div class="slide-text">Your Health, Our Priority</div>
+            </div>
+            <div class="slide fade">
+                <img src="img3.jpg" alt="Image 3" class="slide-image">
+                <div class="slide-text">Comprehensive Medical Services</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <a href="nerves/ChatBot-Starter/templates/chat.html">Go to Chatbot</a>
+        
+    </section>
+    <section class="aboutus">
+        <div class="container" id="aboutus">
+            <h2>About Us</h2>
+            <div class="about-section">
+                
+                <p><h1>Who we are and what we do?</h1></p>
+                <p>At Health Care, we are dedicated to providing comprehensive medical services to ensure the well-being of our patients. Our team of experienced doctors, nurses, and healthcare professionals is committed to offering personalized care and advanced medical treatments. Whether you need routine check-ups, specialized care, or emergency services, we are here to serve you.</p>
+            <p>Join us in our mission to promote health and wellness. We look forward to serving you and your loved ones.</p>
+        </div>
+                </div>
+              <h2 style="text-align:center">Our Mission</h2>
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="awareness.jpg"style="width:100%">
+                    <div class="container">
+                      <h3>
+                        Mental health Awareness and Education</h3>
+                      
+                      <p>The website aims to raise awareness about mental health issues and provide educational resources to the community. It seeks to dispel myths and reduce the stigma associated with mental health conditions by offering accurate information, articles, and access to mental health professionals' insights.</p>
+                      
+                      <p><button class="button">Read More</button></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="services.jpg"style="width:100%">
+                    <div class="container">
+                      <h3>provide Mental Health services</h3>
+                      
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, aspernatur laudantium. Quam, cum unde. Perspiciatis accusamus veniam minus tenetur amet vero perferendis veritatis, repellendus quaerat, iure eveniet ea qui dolore.</p>
+                    
+                      <p><button class="button">Read more</button></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="support1.jpg" style="width:100%">
+                    <div class="container">
+                      <h3>Support Mental health and well-being</h3>
+                      
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem placeat exercitationem eveniet perspiciatis praesentium a itaque, animi odit expedita facere perferendis! Quidem officiis quos cumque unde maiores distinctio sunt!</p>
+                      
+                      <p><button class="button">Read More</button></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+    </section>
+
+    <section class="services">
+        <div class="container" id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>General Medicine</h3>
+                <p>We provide primary care services for all ages.</p>
+            </div>
+            <div class="service">
+                <h3>Pediatrics</h3>
+                <p>Specialized care for infants, children, and adolescents.</p>
+            </div>
+            <div class="service">
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency services for urgent medical conditions.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, please feel free to contact us using the form below or reach out directly.</p>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@nervescustody.com">info@nervescustody.com</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+               
+            </div>
+            <form  action="https://api.web3forms.com/submit" method="POST" class="contact-form" >
+
+                <input type="hidden" name="access_key" value="85c1d793-b154-424d-8d6e-c66a3d8211dc">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="https://twitter.com" target="_blank"><img src="twitter.png" alt="Twitter" class="social-icon"></a>
+                <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram" class="social-icon"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>We are committed to providing quality health care services for all. Our team of professionals is dedicated to ensuring your well-being.</p>
+                    <div class="social-media">
+                        <a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" class="social-icon"></a>
+                        <a href="https://twitter.com" target="_blank"><img src="twitter.png" alt="Twitter" class="social-icon"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram" class="social-icon"></a>
+                        <a href="https://linkedin.com" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:info@nervescustody.com">info@nervescustody.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mental Health Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+
+        function plusSlides(n) {
+            slideIndex += n;
+            let slides = document.getElementsByClassName("slide");
+            if (slideIndex > slides.length) {slideIndex = 1}
+            if (slideIndex < 1) {slideIndex = slides.length}
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+    </script>
+    
+</body>
+</html>
